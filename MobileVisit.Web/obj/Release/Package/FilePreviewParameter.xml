@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Default Web Site" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\TrainSpace\\MobileVisit\\MobileVisit\.Web\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^E:\\TrainSpace\\MobileVisit\\MobileVisit\.Web\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Default-Web.config Connection String" description="" value="Data Source=(localdb)\mydb;Initial Catalog=MobileVisit;Persist Security Info=True;User ID=sa;Password=123456;MultipleActiveResultSets=True" tags="">
+    <parameterEntry kind="XmlFile" scope="E:\\TrainSpace\\MobileVisit\\MobileVisit\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Default']/@connectionString" />
+  </parameter>
+</parameters>
