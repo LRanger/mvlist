@@ -1,0 +1,23 @@
+DEBUG 2016-08-14 11:05:49,690 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-08-14 11:05:49,784 [1    ] Abp.Modules.AbpModuleManager             - Found 7 ABP modules in total.
+DEBUG 2016-08-14 11:05:49,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MobileVisit.Migrator.MobileVisitMigratorModule, MobileVisit.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-14 11:05:49,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MobileVisit.MobileVisitDataModule, MobileVisit.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-14 11:05:49,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-14 11:05:49,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-14 11:05:49,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.10.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-14 11:05:49,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.10.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-14 11:05:49,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MobileVisit.MobileVisitCoreModule, MobileVisit.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-14 11:05:49,815 [1    ] Abp.Modules.AbpModuleManager             - 7 modules loaded.
+DEBUG 2016-08-14 11:05:50,987 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MobileVisit.EntityFramework.MobileVisitDbContext, MobileVisit.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-14 11:05:51,143 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-08-14 11:05:51,190 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-08-14 11:05:51,190 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-08-14 11:05:51,221 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MobileVisit
+INFO  2016-08-14 11:05:51,456 [1    ] MobileVisit.Migrator.Log                 - Host database: Default
+INFO  2016-08-14 11:05:51,456 [1    ] MobileVisit.Migrator.Log                 - Continue to migration for this host database and all tenants..? (Y/N): 
+INFO  2016-08-14 11:06:01,659 [1    ] MobileVisit.Migrator.Log                 - HOST database migration started...
+INFO  2016-08-14 11:06:04,051 [1    ] MobileVisit.Migrator.Log                 - HOST database migration completed.
+INFO  2016-08-14 11:06:04,051 [1    ] MobileVisit.Migrator.Log                 - --------------------------------------------------------
+INFO  2016-08-14 11:06:04,379 [1    ] MobileVisit.Migrator.Log                 - All databases have been migrated.
+DEBUG 2016-08-14 11:06:11,586 [1    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2016-08-14 11:06:11,586 [1    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
